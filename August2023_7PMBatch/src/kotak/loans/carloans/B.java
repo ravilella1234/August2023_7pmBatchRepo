@@ -1,15 +1,20 @@
 package kotak.loans.carloans;
 
-public class B extends A
+public class B extends A // ISA Relationship
 {
+	public void m1()
+	{
+		System.out.println("iam m1 overriden in B");
+	}
+	
 	public void m2()
 	{
 		System.out.println("iam m2 from B");
 	}
 
 	public static void main(String[] args) 
-	{
-		A a = new A();
+	{	
+		A a = new A(); // HasA Relationship
 		a.m1();
 		
 		B b = new B();
