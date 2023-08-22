@@ -1,0 +1,19 @@
+package pack1;
+
+public class Class2 extends Class1
+{
+
+	public Class2(int a, int b) 
+	{
+		super(a, b);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) 
+	{
+		Class2 c2 = new Class2(10, 20);
+		c2.add();
+		c2.sub();
+	}
+
+}
